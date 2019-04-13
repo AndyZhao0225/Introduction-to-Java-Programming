@@ -32,3 +32,5 @@ import java.util.Scanner;
       return -1;
   }
 }
+
+//Time Complexity: O(n1*n2) = O(n*n)
