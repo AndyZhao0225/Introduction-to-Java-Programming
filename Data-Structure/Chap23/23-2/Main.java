@@ -45,3 +45,5 @@ import java.util.Scanner;
       return maxStrFromEveryChar[maxLenIndex].trim();
   }
 }
+
+//Time Complexity:  O(n*n)
