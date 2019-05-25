@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>39-4</title>
+</head>
+
+<body>
+  <h3>Compute Tax</h3>
+  <br>
+  <form action="MainServlet" method="get">
+    <p> <label>Taxable Income</label><input type="text" name="income" size="20" /> </p>
+    <p> <label>Filing Status</label>
+        <select name="status" size="1">
+          <option value="0">Single</option>
+          <option value="1">Married Jointly</option>
+          <option value="2">Married Separately</option>
+          <option value="3">Head of Household</option>
+        </select> </p>
+    <p> <input type="submit" value="Compute Tax"> <input type="reset" value="Reset"> </p>
+  </form>
+</body>
+
+</html>
